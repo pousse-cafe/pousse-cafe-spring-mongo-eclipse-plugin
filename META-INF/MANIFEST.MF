@@ -1,0 +1,16 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: Pousse-Café Spring Mongo Eclipse Plugin
+Bundle-SymbolicName: poussecafe.spring.mongo.eclipse.plugin
+Bundle-Version: 0.17.0.202102031035
+Bundle-ClassPath: pousse-cafe-spring-mongo-0.17.0-SNAPSHOT.jar
+Export-Package: poussecafe.spring.mongo.storage,
+ poussecafe.spring.mongo.storage.codegeneration
+Bundle-RequiredExecutionEnvironment: JavaSE-11
+Automatic-Module-Name: pousse.cafe.spring.mongo.eclipse.plugin
+Require-Bundle: org.eclipse.jdt.core;bundle-version="3.24.0",
+ org.slf4j.api;bundle-version="1.7.30",
+ poussecafe.base.eclipse.plugin;bundle-version="0.26.0",
+ poussecafe.attribute.eclipse.plugin;bundle-version="0.26.0",
+ poussecafe.core.eclipse.plugin;bundle-version="0.26.0",
+ poussecafe.source.eclipse.plugin;bundle-version="0.27.0"
